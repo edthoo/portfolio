@@ -5,7 +5,7 @@ import Sidebar from './Sidebar/Sidebar';
 
 function App() {
   return (
-    <main className="bg-[#f5ebe0] h-screen">
+    <main class="min-w-sm mx-auto bg-gray-300 md:max-w-xl">
       <Header></Header>
       <Sidebar></Sidebar>
       <Body></Body>
