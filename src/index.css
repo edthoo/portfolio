@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    @apply border-2; 
-    @apply border-solid;
-    @apply border-red-600;
+  html {
+    @apply font-ubuntu
+  }
+}
+
+@layer components {
+  .selected {
+    @apply font-semibold text-xl text-black bg-white text-center my-2 lg:text-3xl lg:my-8
   }
 }
